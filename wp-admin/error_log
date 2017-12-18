@@ -1,0 +1,26 @@
+[11-Dec-2017 14:51:16 UTC] wizard_viewed
+[13-Dec-2017 13:56:41 UTC] wizard_started
+[13-Dec-2017 13:57:01 UTC] wizard_step_completed
+[13-Dec-2017 13:57:01 UTC] PHP Warning:  Missing argument 2 for mm_jpo_step_complete(), called in /home1/marksme3/public_html/wp-includes/class-wp-hook.php on line 288 and defined in /home1/marksme3/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/inc/user-experience-tracking.php on line 713
+[13-Dec-2017 13:57:02 UTC] wizard_step_viewed
+[13-Dec-2017 13:57:03 UTC] wizard_step_viewed
+[13-Dec-2017 13:57:03 UTC] wizard_step_completed
+[13-Dec-2017 13:57:03 UTC] PHP Warning:  Missing argument 2 for mm_jpo_step_complete(), called in /home1/marksme3/public_html/wp-includes/class-wp-hook.php on line 288 and defined in /home1/marksme3/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/inc/user-experience-tracking.php on line 713
+[13-Dec-2017 13:57:14 UTC] wizard_step_completed
+[13-Dec-2017 13:57:15 UTC] PHP Warning:  Missing argument 2 for mm_jpo_step_complete(), called in /home1/marksme3/public_html/wp-includes/class-wp-hook.php on line 288 and defined in /home1/marksme3/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/inc/user-experience-tracking.php on line 713
+[13-Dec-2017 13:57:16 UTC] wizard_step_viewed
+[13-Dec-2017 13:57:22 UTC] wizard_step_completed
+[13-Dec-2017 13:57:22 UTC] PHP Warning:  Missing argument 2 for mm_jpo_step_complete(), called in /home1/marksme3/public_html/wp-includes/class-wp-hook.php on line 288 and defined in /home1/marksme3/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/inc/user-experience-tracking.php on line 713
+[13-Dec-2017 13:57:22 UTC] wizard_step_viewed
+[13-Dec-2017 13:57:23 UTC] contact_page_built
+[13-Dec-2017 13:57:27 UTC] wizard_step_viewed
+[13-Dec-2017 13:57:27 UTC] wizard_step_skipped
+[15-Dec-2017 13:49:36 UTC] wizard_step_completed
+[15-Dec-2017 13:49:36 UTC] wizard_step_viewed
+[15-Dec-2017 13:49:36 UTC] PHP Warning:  Missing argument 2 for mm_jpo_step_complete(), called in /home1/marksme3/public_html/wp-includes/class-wp-hook.php on line 288 and defined in /home1/marksme3/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/inc/user-experience-tracking.php on line 713
+[15-Dec-2017 13:49:40 UTC] wizard_step_skipped
+[16-Dec-2017 19:50:20 UTC] wizard_step_viewed
+[16-Dec-2017 19:50:24 UTC] wizard_step_completed
+[16-Dec-2017 19:50:24 UTC] PHP Warning:  Missing argument 2 for mm_jpo_step_complete(), called in /home1/marksme3/public_html/wp-includes/class-wp-hook.php on line 288 and defined in /home1/marksme3/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/inc/user-experience-tracking.php on line 713
+[16-Dec-2017 19:50:26 UTC] wizard_step_viewed
+[17-Dec-2017 15:03:47 UTC] wizard_hidden

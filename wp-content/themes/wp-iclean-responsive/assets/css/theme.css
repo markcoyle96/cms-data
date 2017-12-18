@@ -1,0 +1,134 @@
+/********************Offcanvas Menu***************************/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.iscwp-outer-wrap{margin:0px !important}
+.wpcrt-home-part-cnt-wrp .column, .wpcrt-home-part-cnt-wrp  .columns{position:relative;}
+.padding-bottom-large{padding-bottom:30px;}
+.flypanels-button-right, .flypanels-button-left{height:80px; line-height:80px; position:relative; z-index:9999;}
+.flypanels-button-right .fa, .flypanels-button-left .fa{font-size:30px; } 
+
+/***************Front Page Design***********************/
+.wpcrt-home-part-cnt-wrp{padding:80px 0; clear:both;}
+.wpcrt-home-part-cnt-insta .iscwp-cnt-wrp{padding:0px;}
+.wpcrt-home-part-cnt-wrp:nth-child(1){padding-top:40px}
+.wpcrt-home-part-cnt-wrp .wpcrt-title {margin-bottom: 20px;padding-bottom: 15px; text-align:center;}
+.wpcrt-home-part-cnt-wrp h2.front-page-title, .wpcrt-home-part-cnt-wrp .entry-content h2{ display:inline-block; padding-bottom:2px; border-bottom:2px solid #1e99ce;}
+.wpcrt-home-part-cnt-wrp p.front-page-sub-title{text-align: center; margin: 0px;}
+.wpcrt-page-content{text-align:center;}
+.wpcrt-page-content{background:#f5f5f5;}
+.wpcrt-home-part-cta a{margin:0px;}
+
+/***************Slick Slider**************************/
+
+.wpcrt-header-slider-wrap .wpsisac-slick-slider h1 { text-transform: uppercase; line-height: 43px;margin: 15px 0 !important;}
+.wpcrt-header-slider-wrap .wpsisac-slick-slider span{display:block; font-weight:400; font-size: 25px}
+.wpsisac-slick-slider ul.slick-dots li.slick-active button {background: #1e99ce !important;}
+.wpsisac-slick-slider .slick-dots li button {border: 1px solid rgba(0, 0, 0, 0) !important;}
+.wpcrt-header-slider-wrap .wpsisac-slick-slider button.slick-arrow{padding:30px !important;}
+
+.wpcrt-header-slider-wrap .wpsisac-slick-slider button.slick-next:hover, .wpcrt-header-slider-wrap .wpsisac-slick-slider button.slick-next:focus{background-color:#f1f1f1 !important}
+.wpcrt-header-slider-wrap .wpsisac-slick-slider button.slick-prev:hover, .wpcrt-header-slider-wrap .wpsisac-slick-slider button.slick-prev:focus{background-color:#f1f1f1 !important}
+
+.wpcrt-header-slider-wrap .readmore .slider-readmore{ text-transform: uppercase;-moz-appearance: none;   background-color: #1e99ce !important; border:0px !important;
+    color: #ffffff;cursor: pointer;font-size: 1rem;padding: 10px 30px !important;text-decoration: none;transition: 300ms ease-out 0s; }
+	
+.wpcrt-header-slider-wrap .readmore  a.slider-readmore:hover, .wpcrt-header-slider-wrap .readmore  a.slider-readmore:focus {background-color: #2d69b6 !important; color: #ffffff; }
+
+	
+/*********************Featured Content***************************/
+.featured-content .featured-read-more a { text-transform: uppercase;-moz-appearance: none;   background-color: #1e99ce; border:0px  !important;
+    color: #ffffff;cursor: pointer;font-size: 1rem;padding: 10px 30px !important;text-decoration: none;transition: 300ms ease-out 0s; }
+.featured-content .featured-read-more a:hover, .featured-content .featured-read-more a:focus {background-color: #2d69b6; color: #ffffff;  }
+
+
+/*******************Home Page Testimonials*************************************/
+
+.wptww-testimonials-slidelist{margin-bottom:0px !important}
+.testimonials-list.design-1 .fa-quote-left {color: #3e7ccc;}
+.wptww-testimonials-slidelist h4, .wptww-testimonials-slidelist p, .wptww-testimonials-slidelist .testimonial-author, .wptww-testimonials-slidelist .testimonial-job{color:#fff;}
+.wptww-testimonials-slidelist h4, .wptww-testimonials-slidelist .testimonial-author, .wptww-testimonials-slidelist .testimonial-job {text-transform: uppercase;}
+.testimonial-job a{color: #fff;}
+.wptww-testimonials-slidelist .slick-dots li button {border:0 !important;}
+.wp_teamshowcase_grid.design-1 .team-grid .member-name {text-transform: uppercase;font-weight: 700;font-size: 20px; color: #323232;}
+.wpcrt-testimonials-content{background:#1e99ce url(../images/pexels-photo.jpg) no-repeat top center fixed; background-size: cover; position:relative;}
+.wpcrt-testimonials-content::before { content:""; display: block; height: 100%; position: absolute; top: 0; left: 0; width: 100%; background-color: rgba(30, 153, 206, .8)}
+.wpcrt-testimonials-content h2.front-page-title{color:#fff;}
+.wpcrt-testimonials-content h2.front-page-title{border-color:#fff;}
+.wpcrt-testimonials-content p.front-page-sub-title {color:#fff; margin:0px;}
+
+/*******************Home Page Blog*************************************/
+.recent-post-slider .recentpost-categories ul.post-categories li:nth-child(1) a {background: #000 !important;}
+.recent-post-slider.design-4 .post-list-content .wp-post-title a {color: #323232;}
+.recent-post-slider .wp-post-date::after {background: #3e7ccc !important;}
+.recent-post-slider ul.slick-dots li button {background: #333333 !important; border:0;}
+.recent-post-slider ul.slick-dots li.slick-active button {background: #3e7ccc !important;}
+
+/*******************Home Page our Team*************************************/
+.wpcrt-home-part-cnt-wrp .wp-modal-header{height:400px;}
+/*******************Home Page our work*************************************/
+.wpcrt-portfolio-content{background:#f4f4f4;}
+
+/***********************Home Page Logo Showcase****************************/
+.logo_showcase .slick-dots li.slick-active button {background: #3e7ccc !important;}
+.logo_showcase .slick-dots li button {border: 1px solid RGBA(0, 0, 0, 0); background:#000 !important;}
+.wpcrt-logoslider-content{background:#f2f2f2 url(../images/pixel_map.png) no-repeat center center; background-size: cover;}
+.logo_showcase ul.slick-dots li button {background: #333333 !important; border:0;}
+.logo_showcase ul.slick-dots li.slick-active button {background: #3e7ccc !important;}
+
+/***********************Home Page Call To Action****************************/
+.wpcrt-home-part-cta {background: #1e99ce;padding:25px 0;}
+.wpcrt-home-part-cta h4{margin:0px; color:#fff;}
+a.wpcrt-cta-btn{-moz-appearance: none;background-color: #fff;color: #1e99ce;cursor: pointer;padding: 10px 25px;text-decoration: none;}
+a.wpcrt-cta-btn:hover, a.wpcrt-cta-btn:focus {background-color: #2d69b6;}
+.wpcrt-home-part-cta .medium-3{text-align:right;}
+
+/***********************Home Page insta****************************/
+.wpcrt-home-part-cnt_insta{padding:0px;}
+.wpcrt-home-part-cnt_insta .iscwp-cnt-wrp{padding:0px;}
+
+/**************************Media Queries*************************************/
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+ .wpcrt-header-top{padding: 0;}
+ .wpcrt-header-container{position: static;}
+ .wpcrt-social-networks-header {text-align: center;}
+ .title-bar-left {float: left;width: 100%;background: #000;display: block;line-height: 32px;padding-left: 5px;}
+ .wpcrt-header-container .top-bar.wpcrt-header{background-color: #444;}
+
+ .search-nav #searchform input{font-size: 16px;padding: 10px 13px;}
+ .wpcrt-header-image-wrap .wpcrt-header-cnt h1 {font-size: 1.75rem;}
+ .wpcrt-header-image-wrap .wpcrt-header-cnt .buttons a {margin: 5px;}
+ .panelcontent nav.flypanels-treemenu ul li.haschildren li div a {background-color: #3E7CCC;}
+ .panelcontent nav.flypanels-treemenu ul li.haschildren li div {border-bottom-color: #3E7CCC;}
+ .top-bar input {max-width: 100%}
+ .theme-services-page p {padding-right: 0px !important;}
+ .theme-services-page a {width: auto !important}
+ .panelcontent nav.flypanels-treemenu li div a.expand:hover {color: #3E7CCC;}
+
+/****************Slider********************************/
+
+
+/****************Call To action************************************/
+
+
+/********************Footer Copyright*******************************/
+.footer-copyright-area {text-align: center;}
+.footer-copyright-area .wpcrt-text-right {text-align: center;}
+}
+
+/* Medium screens */
+@media only screen and (max-width: 64em) { 
+.wpcrt-header .wpcrt-logo {text-align: center;}
+#wpcrt-search-nav .wpcrt-search-nav{height:70px !important; line-height:70px !important;}
+}

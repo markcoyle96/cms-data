@@ -1,0 +1,16 @@
+1513002676: /home1/marksme3/public_html/ssv3_payload_extractor-JJrVtZAyeQ.php startup
+[15-Dec-2017 04:52:49 UTC] PHP Warning:  require_once(/home1/marksme3/public_html/wp-content/plugins/jetpack/_inc/lib/class.media.php): failed to open stream: No such file or directory in /home1/marksme3/public_html/wp-content/plugins/jetpack/class.jetpack.php on line 25
+[15-Dec-2017 04:52:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home1/marksme3/public_html/wp-content/plugins/jetpack/_inc/lib/class.media.php' (include_path='.:/opt/php70/lib/php') in /home1/marksme3/public_html/wp-content/plugins/jetpack/class.jetpack.php on line 25
+[15-Dec-2017 04:52:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/marksme3/public_html/wp-content/mu-plugins/endurance-page-cache.php:370
+Stack trace:
+#0 /home1/marksme3/public_html/wp-content/mu-plugins/endurance-page-cache.php(403): Endurance_Page_Cache->is_cachable()
+#1 /home1/marksme3/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/marksme3/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/marksme3/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home1/marksme3/public_html/wp-includes/load.php(679): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/marksme3/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 370
+[15-Dec-2017 14:01:09 UTC] PHP Fatal error:  require(): Failed opening required '/home1/marksme3/public_html/wp-content/themes/perth/inc/template-functions.php' (include_path='phar:///usr/local/bin/wp/vendor/phpunit/php-token-stream:phar:///usr/local/bin/wp/vendor/phpunit/phpunit-mock-objects:phar:///usr/local/bin/wp/vendor/phpunit/php-code-coverage:phar:///usr/local/bin/wp/vendor/phpunit/phpunit:phar:///usr/local/bin/wp/vendor/symfony/yaml:.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/marksme3/public_html/wp-content/themes/twentyseventeen/functions.php on line 576
+[16-Dec-2017 20:00:08 UTC] PHP Fatal error:  require(): Failed opening required '/home1/marksme3/public_html/wp-content/themes/featuredlite/widgets/contact-info.php' (include_path='phar:///usr/local/bin/wp/vendor/phpunit/php-token-stream:phar:///usr/local/bin/wp/vendor/phpunit/phpunit-mock-objects:phar:///usr/local/bin/wp/vendor/phpunit/php-code-coverage:phar:///usr/local/bin/wp/vendor/phpunit/phpunit:phar:///usr/local/bin/wp/vendor/symfony/yaml:.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/marksme3/public_html/wp-content/themes/perth/functions.php on line 145
+[17-Dec-2017 15:30:42 UTC] PHP Fatal error:  require(): Failed opening required '/home1/marksme3/public_html/wp-content/themes/twentysixteen/includes/dashboard/wpiclt-how-it-work.php' (include_path='phar:///usr/local/bin/wp/vendor/phpunit/php-token-stream:phar:///usr/local/bin/wp/vendor/phpunit/phpunit-mock-objects:phar:///usr/local/bin/wp/vendor/phpunit/php-code-coverage:phar:///usr/local/bin/wp/vendor/phpunit/phpunit:phar:///usr/local/bin/wp/vendor/symfony/yaml:.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/marksme3/public_html/wp-content/themes/wp-iclean-responsive/functions.php on line 220

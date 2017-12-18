@@ -1,0 +1,46 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga" on;
+}
+.featured-section {
+       background: #090016; 
+}
+.main-head-partition{
+border-bottom: 2px solid #e64e46;
+}
+.button-three .main-button button {
+    border-color: #e64e46;
+background-color: #e64e46;
+}
+.button-three .main-button button:hover {
+    color: #e64e46;
+}
+
+.multi-feature-area h2.head-text:after, #team h2.head-text:after, .woocommerce-section h2.head-text:after, .client-testimonial-section h2:after, .multi-slider-area h2.head-text:after, .contact-section h2:after, .aboutus-text h2:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 100px;
+    height: 4px;
+    margin-left: -50px;
+    background-color: #e64e46
+}
+.aboutus-text h2:after{
+left:60px;
+}
+ h2.head-text{
+position:relative;
+}
+ul.multiple-featured-section li.multi-featured{
+box-shadow:none;
+background:transparent;
+}
+ul.multiple-featured-section li.multi-featured a h3, ul.multiple-featured-section li.multi-featured p{
+color:#dde9f0!important;
+}
+.owl-prev, .owl-next{
+background-color:#dde9f0;
+}
